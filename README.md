@@ -1,7 +1,9 @@
 # Pseudo Visible Feature Fine-Grained Fusion for Thermal Object Detection (CVPR-25)
-**Note:** ![](./figs/almost.png) This repository currently provides **inference code**. Full training code is almost there! ![](./figs/almost.png)
+**Note:** 🔥 This repository currently provides **inference code**. Full training code is almost there! 😎
+
 ## Overview
-![](./figs/overview.png)
+![](README.assets/overview.png)
+
 ## Environment Configuration
 1. Create Virtual Environment
 ```
@@ -33,9 +35,9 @@ python tools/analysis_tools/eval_metric.py configs/yolox_l_tirgraphmamba_1x8_200
 For LLVIP dataset, please run
 ```
 python tools/analysis_tools/eval_metric.py configs/yolox_l_tirgraphmamba_1x8_200e_LLVIP_r_test.py ./pkl/LLVIP.pkl --eval mAP
-``` 
+```
 
 For Autonomous Vehicles dataset, please run
 ```
 python tools/analysis_tools/eval_metric.py configs/yolox_l_tirgraphmamba_1x8_200e_AV_r_test.py ./pkl/AV.pkl --eval mAP
-``` 
+```
