@@ -2,7 +2,7 @@
 **Note:** 🔥 This repository currently provides **inference code**. Full training code is almost there! 😎
 
 ## Overview
-![](README.assets/overview.png)
+![](overview.png)
 
 ## Environment Configuration
 1. Create Virtual Environment
